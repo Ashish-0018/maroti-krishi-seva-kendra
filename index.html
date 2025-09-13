@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>मारोती कृषी सेवा केंद्र, लोहा</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Noto Sans Devanagari for Marathi -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Feather Icons for modern icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        body {
+            font-family: 'Noto Sans Devanagari', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .hero-bg {
+            background-color: #f0fdf4; /* Light Green */
+            background-image: linear-gradient(to bottom, #dcfce7, #ffffff);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header & Navigation Bar -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl md:text-2xl font-bold text-green-800">
+                मारोती कृषी सेवा केंद्र
+            </a>
+            
+            <!-- Desktop Navigation -->
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#home" class="text-gray-600 hover:text-green-700 font-medium">होम</a>
+                <a href="#products" class="text-gray-600 hover:text-green-700 font-medium">उत्पादने</a>
+                <a href="#about" class="text-gray-600 hover:text-green-700 font-medium">आमच्याबद्दल</a>
+                <a href="#founder" class="text-gray-600 hover:text-green-700 font-medium">संस्थापक</a>
+                <a href="#contact" class="text-gray-600 hover:text-green-700 font-medium">संपर्क</a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <div class="md:hidden flex items-center">
+                <button id="mobile-menu-button" class="text-gray-800 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 space-y-2">
+            <a href="#home" class="block py-2 text-gray-600 hover:text-green-700 font-medium">होम</a>
+            <a href="#products" class="block py-2 text-gray-600 hover:text-green-700 font-medium">उत्पादने</a>
+            <a href="#about" class="block py-2 text-gray-600 hover:text-green-700 font-medium">आमच्याबद्दल</a>
+            <a href="#founder" class="block py-2 text-gray-600 hover:text-green-700 font-medium">संस्थापक</a>
+            <a href="#contact" class="block py-2 text-gray-600 hover:text-green-700 font-medium">संपर्क</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-bg">
+            <div class="container mx-auto px-6 py-20 md:py-32 text-center">
+                <h1 class="text-4xl md:text-6xl font-bold text-green-900 leading-tight mb-4">मारोती कृषी सेवा केंद्र</h1>
+                <p class="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto mb-8">आम्ही सर्व नामांकित कंपन्यांची उच्च दर्जाची खते, कीटकनाशके आणि बियाणे विकतो. 'विश्वासाचे दुसरे नाव'!</p>
+                <a href="tel:9370465297" class="inline-flex items-center bg-orange-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg hover:bg-orange-700 transition-transform transform hover:scale-105">
+                    <i data-feather="phone-call" class="mr-2"></i>
+                    आताच कॉल करा: ९३७०४६५२९७
+                </a>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="py-16 bg-white">
+            <div class="container mx-auto px-6">
+                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                    <div class="p-6">
+                        <div class="flex items-center justify-center h-16 w-16 rounded-full bg-green-100 text-green-800 mx-auto mb-4">
+                            <i data-feather="award" class="h-8 w-8"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">सर्वोत्कृष्ट उत्पादने</h3>
+                        <p class="text-gray-600">आम्ही फक्त नामांकित आणि विश्वासार्ह कंपन्यांची उत्पादने विकतो.</p>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center justify-center h-16 w-16 rounded-full bg-green-100 text-green-800 mx-auto mb-4">
+                           <i data-feather="users" class="h-8 w-8"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">तज्ञ सल्ला</h3>
+                        <p class="text-gray-600">आमच्या अनुभवी टीमकडून पिकांसाठी योग्य सल्ला मिळवा.</p>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center justify-center h-16 w-16 rounded-full bg-green-100 text-green-800 mx-auto mb-4">
+                            <i data-feather="thumbs-up" class="h-8 w-8"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">वाजवी दर</h3>
+                        <p class="text-gray-600">सर्व उत्पादने शेतकऱ्यांना परवडणाऱ्या दरात उपलब्ध आहेत.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products" class="py-20">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center text-green-900 mb-12">आमची प्रमुख उत्पादने</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Product Card 1: Fertilizers -->
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
+                        <img src="images/रासायनिक खते.webp" alt="रासायनिक खते" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="font-bold text-xl mb-2">रासायनिक खते</h3>
+                            <p class="text-gray-600">युरिया, डी.ए.पी., पोटॅश, आणि इतर सर्व प्रकारची खते उपलब्ध.</p>
+                        </div>
+                    </div>
+                    <!-- Product Card 2: Pesticides -->
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
+                        <img src="images/कीटकनाशके.webp" alt="कीटकनाशके" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="font-bold text-xl mb-2">कीटकनाशके</h3>
+                            <p class="text-gray-600">सर्व प्रकारच्या किडींवर नियंत्रण मिळवण्यासाठी प्रभावी कीटकनाशके.</p>
+                        </div>
+                    </div>
+                    <!-- Product Card 3: Seeds -->
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
+                        <img src="images/सुधारित बियाणे.webp" alt="बियाणे" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="font-bold text-xl mb-2">सुधारित बियाणे</h3>
+                            <p class="text-gray-600">जास्त उत्पादन देणारे विविध पिकांचे दर्जेदार बियाणे.</p>
+                        </div>
+                    </div>
+                    <!-- Product Card 4: Other Agri Medicines -->
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
+                        <img src="images/इतर कृषी औषधे.webp" alt="इतर कृषी औषधे" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="font-bold text-xl mb-2">इतर कृषी औषधे</h3>
+                            <p class="text-gray-600">बुरशीनाशके, तणनाशके आणि पीक वाढीसाठी संजीवके.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="bg-green-50 py-20">
+            <div class="container mx-auto px-6">
+                <div class="flex flex-col md:flex-row items-center gap-12">
+                    <div class="md:w-1/2">
+                        <!-- Owner's photo (Embedded Base64) -->
+                        <img src="images/journey.png" alt="मारोती कृषी सेवा केंद्र" class="rounded-lg shadow-xl w-full">                    </div>
+                    <div class="md:w-1/2">
+                        <h2 class="text-3xl font-bold text-green-900 mb-4">आमचा प्रवास</h2>
+                        <p class="text-gray-700 mb-4 text-lg">मारोती कृषी सेवा केंद्राची स्थापना शेतकऱ्यांना एकाच छताखाली सर्वोत्कृष्ट कृषी उत्पादने आणि सेवा देण्यासाठी झाली आहे. आम्ही अनेक वर्षांपासून लोहा आणि परिसरातील शेतकऱ्यांची सेवा करत आहोत. आमचा उद्देश शेतकऱ्यांना आधुनिक शेतीसाठी आवश्यक असणारे सर्व साहित्य आणि योग्य मार्गदर्शन पुरवणे हा आहे.</p>
+                        <p class="text-gray-700 text-lg">तुमचा विश्वास हेच आमचे यश आहे आणि आम्ही ते जपण्यासाठी सदैव प्रयत्नशील राहू.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Founder Section -->
+        <section id="founder" class="bg-white py-20">
+            <div class="container mx-auto px-6">
+                <div class="flex flex-col md:flex-row-reverse items-center gap-12">
+                    <div class="md:w-1/2">
+                         <!-- Founder's image (Embedded Base64) -->
+                        <img src="images/founder.jpg" alt="संस्थापक" class="rounded-lg shadow-xl w-full">                    </div>
+                    <div class="md:w-1/2 text-center md:text-left">
+                        <h2 class="text-3xl font-bold text-green-900 mb-2">आमचे संस्थापक</h2>
+                        <h3 class="text-2xl font-semibold text-orange-600 mb-4">श्री. अंकुश पाटील लोखंडे</h3>
+                        <p class="text-gray-700 mb-4 text-lg">मारोती कृषी सेवा केंद्राचे संस्थापक स्वतः एक शेतकरी कुटुंबातून आले आहेत. त्यांना शेतकऱ्यांच्या समस्यांची आणि गरजांची खोलवर जाणीव आहे. त्यांच्या अनुभवाचा आणि दूरदृष्टीचा फायदा परिसरातील हजारो शेतकऱ्यांना होत आहे.</p>
+                        <p class="text-gray-700 text-lg font-semibold">त्यांचा एकच ध्यास आहे - प्रत्येक शेतकऱ्याला समृद्ध करणे.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact & Map Section -->
+        <section id="contact" class="py-20">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center text-green-900 mb-12">आमच्याशी संपर्क साधा</h2>
+                <div class="bg-white rounded-xl shadow-lg p-8 md:p-12">
+                    <div class="flex flex-col md:flex-row gap-10">
+                        <!-- Contact Details -->
+                        <div class="md:w-1/2 space-y-6">
+                            <div>
+                                <h3 class="text-2xl font-bold text-green-800 mb-4">मारोती कृषी सेवा केंद्र</h3>
+                                <div class="flex items-start space-x-4 mb-4">
+                                    <i data-feather="map-pin" class="text-orange-600 mt-1"></i>
+                                    <p class="text-lg text-gray-700"><strong>पत्ता:</strong> जुना मोंढा, लोहा, जिल्हा नांदेड, महाराष्ट्.</p>
+                                </div>
+                                <div class="flex items-center space-x-4">
+                                    <i data-feather="phone" class="text-orange-600"></i>
+                                    <p class="text-lg text-gray-700"><strong>मोबाईल नंबर:</strong> <a href="tel:9370465297" class="hover:underline">९३७०४६५२९७</a></p>
+                                </div>
+                            </div>
+                             <a href="tel:9370465297" class="inline-block w-full text-center md:w-auto bg-orange-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg hover:bg-orange-700 transition-transform transform hover:scale-105">
+                                फोन करा
+                            </a>
+                        </div>
+                        <!-- Google Map -->
+                        <div class="md:w-1/2 h-80 md:h-auto rounded-lg overflow-hidden">
+                           <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15065.73546743817!2d77.10091494056291!3d19.26259021968819!2m3!1f0!2f0!3f0!3m2!i1024!i268!4f13.1!3m3!1m2!1s0x3bd06a4a6a0a9a1d%3A0x8f2d5c3b1e7c5a0b!2sLoha%2C%20Maharashtra%20431708!5e0!3m2!1sen!2sin!4v1694625841682!5m2!1sen!2sin" 
+                                width="100%" 
+                                height="100%" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-green-900 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; २०२४ मारोती कृषी सेवा केंद्र. सर्व हक्क राखीव.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Mobile Menu and Icons -->
+    <script>
+        // Feather Icons
+        feather.replace();
+
+        // Mobile Menu Logic
+        document.addEventListener('DOMContentLoaded', function () {
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+
+            mobileMenuButton.addEventListener('click', function () {
+                mobileMenu.classList.toggle('hidden');
+            });
+
+            const navLinks = mobileMenu.querySelectorAll('a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                     mobileMenu.classList.add('hidden');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
